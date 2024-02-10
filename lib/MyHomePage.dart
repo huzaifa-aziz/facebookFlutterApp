@@ -16,11 +16,11 @@ class _MyHomePageState extends State<MyHomePage> {
       child: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.white,
-          title: Text(
+          title: const Text(
             'facebook',
             style: TextStyle(
               fontSize: 40.0,
-              color: Colors.blue,
+              color: Color.fromARGB(255, 11, 95, 165),
               fontWeight: FontWeight.bold,
             ),
           ),
@@ -45,9 +45,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 Tab(
                   icon: Icon(Icons.home),
                 ),
-                // Tab(
-                //   icon: (Icons.home),
-                // ),
+                Tab(
+                  icon: (Icons.home),
+                ),
                 // Tab(
                 //   icon: (CupertinoIcons.home),
                 // ),
