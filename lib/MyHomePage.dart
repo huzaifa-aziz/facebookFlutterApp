@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+//import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -46,26 +46,29 @@ class _MyHomePageState extends State<MyHomePage> {
                   icon: Icon(Icons.home),
                 ),
                 Tab(
-                  icon: (Icons.home),
+                  icon: Icon(Icons.group),
                 ),
-                // Tab(
-                //   icon: (CupertinoIcons.home),
-                // ),
-                // Tab(
-                //   icon: (CupertinoIcons.home),
-                // ),
-                // Tab(
-                //   icon: (CupertinoIcons.home),
-                // ),
+                Tab(
+                  icon: Icon(Icons.ondemand_video),
+                ),
+                Tab(
+                  icon: Icon(Icons.notifications),
+                ),
+                Tab(
+                  icon: Icon(Icons.menu),
+                ),
+                Tab(
+                  icon: Image.asset('assets/images/girl4.jpeg'),
+                ),
               ]),
         ),
         body: TabBarView(
           children: [
-            Icon(CupertinoIcons.home),
             Icon(Icons.home),
-            Icon(Icons.home),
-            Icon(Icons.home),
-            Icon(Icons.home),
+            Icon(Icons.group),
+            Icon(Icons.ondemand_video),
+            Icon(Icons.notifications),
+            Icon(Icons.menu),
           ],
         ),
       ),
